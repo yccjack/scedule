@@ -26,7 +26,8 @@ public interface Observerable {
 
     /**
      * 通知观察者
+     * @param outPut 结果
      */
-    void notifyObserver();
+    void notifyObserver( Object outPut);
 
 }

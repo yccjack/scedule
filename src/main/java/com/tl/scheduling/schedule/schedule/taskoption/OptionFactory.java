@@ -33,7 +33,6 @@ public enum OptionFactory {
         TaskStrategy asy = new AsyStrategy();
         strategyMap.put(TaskSchedule.SYN_MODEL, syn);
         strategyMap.put(TaskSchedule.ASY_MODEL, asy);
-
     }
 
     public static TaskStrategy getStrategy(String model) {

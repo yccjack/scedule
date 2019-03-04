@@ -1,6 +1,8 @@
 package com.tl.scheduling.schedule.schedule;
 
-import com.tl.scheduling.schedule.task.Task;
+import com.tl.scheduling.schedule.task.AbstractTask;
+
+import java.util.List;
 
 /**
  * @author :MysticalYcc
@@ -10,7 +12,7 @@ public interface TaskStrategy {
 
     /**
      * 分发任务
-     * @param task
+     * @param taskList
      */
-     void distributionTask (Task task);
+     void distributionTask (List<AbstractTask> taskList);
 }
